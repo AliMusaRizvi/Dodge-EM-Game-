@@ -1,0 +1,35 @@
+Dodge-EM-Game - README
+Game Description:
+Dodge-EM-Game is an exciting and challenging game developed in C++. The objective of the game is to navigate a player-controlled character through a maze while avoiding obstacles. Your character has three lives, and the game keeps track of your high score, which is saved in a "highscore.txt" file.
+
+How to Play:
+Use the following keys to control your character:
+'W' key: Move UP
+'A' key: Move LEFT
+'S' key: Move DOWN
+'D' key: Move RIGHT
+Game Rules:
+You start the game with three lives.
+Navigate your character through the maze while avoiding collisions with obstacles.
+Each time you successfully avoid an obstacle, your score increases.
+If you collide with an obstacle, you lose one life. The game continues with your remaining lives.
+The game ends when you run out of lives.
+
+High Score:
+Your highest score achieved during a game session will be saved in a file named "highscore.txt."
+You can track your progress and aim to beat your previous high score in future game sessions.
+
+How to Run the Game:
+Ensure you have a C++ compiler installed on your system.
+Compile the game's source code using the appropriate commands for your compiler. For example:
+
+Dodge-EM-Game Source.cpp
+
+Run the compiled executable to start the game:
+
+Copy code
+./Dodge-EM-Game
+
+Note:
+Customize the game as per your preferences, such as adding more obstacles or changing the maze layout by modifying the source code.
+Have fun playing Dodge-EM-Game and aim for that high score!
